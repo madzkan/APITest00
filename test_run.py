@@ -10,7 +10,7 @@ def can_create_task():
         "is_done": False
     }
 
-    response = requests.put(ENDPOINT, + "/create task", json=payload)
+    response = requests.put(ENDPOINT, + "/create-task", json=payload)
     assert response.status_code == 200
 
     data = response.json()
