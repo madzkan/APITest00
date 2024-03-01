@@ -2,7 +2,7 @@ import requests
 from utils import appID
 
 
-def test_menu_settings():
+def test_menu_settings1():
     body = {         
          "tabbar": [
               {
