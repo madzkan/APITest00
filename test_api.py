@@ -2,7 +2,7 @@ import requests
 
 ENDPOINT = "https://todo.pixegami.io/"
 
-def test_call_endpoint():
+def test_call_endpoint1():
     response = requests.get(ENDPOINT)
     assert response.status_code == 200
 
